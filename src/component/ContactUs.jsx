@@ -1,8 +1,9 @@
 import React from 'react'
+import "./mycss.css"
 
 const ContactUs = () => {
   return (
-    <div>please contact here</div>
+    <div className='contact_css'>please contact here</div>
   )
 }
 

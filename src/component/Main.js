@@ -1,8 +1,10 @@
 import React from 'react'
+import "./mycss.css"
 
 const Main = () => {
   return (
-    <div style={{width:"200px", backgroundColor:'red', height:"200px"}}>Home</div>
+    <div className='home_conatiner'>this is the home page</div>
+    
   )
 }
 

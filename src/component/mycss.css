@@ -6,6 +6,10 @@
 table {
     border-collapse: collapse;
     width: 50%;
+    margin-left: 15%;
+    margin-top: 15%;
+    position:relative;
+    background-color: bisque;
   }
   
   th {
@@ -15,10 +19,34 @@ table {
     background-color: rgb(79, 79, 78);
     color: white;
   }
+  caption{
+    text-align: center;
+    background-color: rgb(160, 106, 35);
+
+  }
   
   td {
     border: 2px solid #c5c4c4;
     text-align: left;
     padding: 8px;
+    text-align: center;
+    background-color: rgb(167, 160, 151);
+  }
+  .home_conatiner{
+    text-align: center;
+    color: green;
+    background-color: aquamarine;
+  }
+  .about_css{
+    text-align: center;
+    color: blueviolet;
+    flex-wrap: flex;
+    margin-top: 30%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .contact_css{
+    text-align: right;
+    margin-top: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   

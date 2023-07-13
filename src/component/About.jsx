@@ -1,8 +1,9 @@
 import React from 'react'
+import "./mycss.css"
 
 const About = () => {
   return (
-    <div>this is my website for practice</div>
+    <div className='about_css'>this is my website for practice</div>
   )
 }
 
