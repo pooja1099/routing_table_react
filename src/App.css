@@ -37,4 +37,27 @@
   }
 }
 
+.content{
+  list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    
+    
+}
+.container{
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  
+}
+#mytext{
+  display: inline-block;
+  width: 100px;
+  height: 10px;
+  padding: 5px;
+  border: 0px solid blue;
+  
+
+  
+}
+
 
